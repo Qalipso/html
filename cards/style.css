@@ -1,0 +1,41 @@
+.table11 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 1000px;
+  border: 5px solid black;
+ }
+ .s{
+ 	display: flex;
+ 	justify-content: space-between;
+ 	height: 150px;
+ 	width:  500px;
+ }
+.card{
+	height: 145px;
+  	width: 100px;
+  	/* border: 1px solid black; */
+    cursor: pointer;
+    background-image: url(none.png);
+}
+.active.A {
+	background-image: url(A.png);
+}
+.active.K{
+  background-image: url(K.png);
+}
+.active.Q{
+  background-image: url(Q.png);
+}
+.active.t{
+  background-image: url(t.png);
+}
+.active.J{
+  background-image: url(J.png);
+}
+.active.n{
+  background-image: url(n.png);
+}
